@@ -20,8 +20,8 @@
 ---
 
 ## Hola, soy Mauro Letelle  
-Estudiante de Licenciatura en Sistemas 
-Trainee en Desarrollo de Software  
+- Estudiante de Licenciatura en Sistemas
+- Trainee en Desarrollo de Software  
 
 ---
 
@@ -57,6 +57,7 @@ Trainee en Desarrollo de Software
 <div align="center">
   <img src="https://ghchart.rshah.org/mletelle" alt="Calendario de Contribuciones" width="80%"/>
 </div>
+
 ---
 
 ## Estadísticas en GitHub
@@ -65,6 +66,13 @@ Trainee en Desarrollo de Software
   <img height="150" src="https://github-readme-stats.vercel.app/api?username=mletelle&show_icons=true&theme=radical&count_private=true" alt="GitHub stats"/>
   &nbsp;
   <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mletelle&layout=compact&theme=radical" alt="Top Languages"/>
+</p>
+
+---
+## GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=mletelle&theme=onedark&column=7" alt="Trophies"/>
 </p>
 
 ---
