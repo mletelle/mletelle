@@ -6,7 +6,7 @@
   <a href="https://github.com/mletelle?tab=followers">
     <img src="https://img.shields.io/github/followers/mletelle?label=Seguidores&style=social" alt="GitHub Followers"/>
   </a>
-  <a href="https://www.linkedin.com/in/mletelle/">
+  <a href="https://www.linkedin.com/in/mauro-letelle-0360311b6//">
     <img src="https://img.shields.io/badge/LinkedIn-Mauro%20Letelle-blue?logo=linkedin" alt="LinkedIn"/>
   </a>
   <a href="https://twitter.com/mletelle0">
