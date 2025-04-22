@@ -9,7 +9,7 @@
   <a href="https://www.linkedin.com/in/mletelle/">
     <img src="https://img.shields.io/badge/LinkedIn-Mauro%20Letelle-blue?logo=linkedin" alt="LinkedIn"/>
   </a>
-  <a href="https://twitter.com/mletelle">
+  <a href="https://twitter.com/mletelle0">
     <img src="https://img.shields.io/badge/Twitter-@mletelle-1DA1F2?logo=twitter" alt="Twitter"/>
   </a>
   <a href="https://www.instagram.com/mletelle/">
