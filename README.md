@@ -1,3 +1,11 @@
+---
+
+## Hola, soy Mauro Letelle  
+- Estudiante de Licenciatura en Sistemas
+- Trainee en Desarrollo de Software
+
+---
+
 <div align="center">
   <!-- Profile views -->
   <img src="https://komarev.com/ghpvc/?username=mletelle&color=brightgreen" alt="Profile views"/>
@@ -16,12 +24,6 @@
     <img src="https://img.shields.io/badge/Instagram-@mletelle-1DA1F2?logo=instagram" alt="Instagram"/>
   </a>
 </div>
-
----
-
-## Hola, soy Mauro Letelle  
-- Estudiante de Licenciatura en Sistemas
-- Trainee en Desarrollo de Software  
 
 ---
 
