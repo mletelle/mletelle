@@ -27,33 +27,6 @@
 
 ---
 
-## Habilidades
-
-<details>
-  <summary>Lenguajes y Frameworks</summary>
-
-  - Python (Django, Flask, Streamlit)  
-  - Java  
-  - JavaScript / TypeScript  
-  - SQL & NoSQL (PostgreSQL, MySQL, MongoDB)  
-  - C / C++  
-
-</details>
-
-<details>
-  <summary>Herramientas y Plataformas</summary>
-
-  - Git & GitHub  
-  - Linux (Ubuntu, WSL2)  
-  - Docker Compose, GitHub Actions (CI/CD)  
-  - REST APIs, AJAX  
-  - VSCode, PyCharm  
-  - Whisper, CUDA  
-
-</details>
-
----
-
 ## Calendario de contribuciones
 
 <div align="center">
@@ -78,4 +51,4 @@
 </p>
 
 ---
-*Última actualización: 22/04/2025*
+*Última actualización: 2025-04-27*
