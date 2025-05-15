@@ -27,14 +27,6 @@
 
 ---
 
-## Calendario de contribuciones
-
-<div align="center">
-  <img src="https://ghchart.rshah.org/mletelle" alt="Calendario de Contribuciones" width="80%"/>
-</div>
-
----
-
 ## Estadísticas en GitHub
 
 <p align="center">
@@ -51,4 +43,4 @@
 </p>
 
 ---
-*Última actualización: 2025-04-27*
+*Última actualización: 2025-05-15*
