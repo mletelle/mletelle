@@ -64,4 +64,4 @@
 </div>
 
 ---
-<sub>Última actualización: 2025-05-15</sub>
+<sub>Última actualización: 2025-07-25</sub>
