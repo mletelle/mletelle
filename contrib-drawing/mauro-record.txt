@@ -13,3 +13,6 @@ day: 5
 date: 2026-07-25
 week: 0
 day: 6
+date: 2026-07-27
+week: 1
+day: 1
