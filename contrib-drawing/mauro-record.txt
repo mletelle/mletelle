@@ -22,3 +22,6 @@ day: 2
 date: 2026-08-10
 week: 3
 day: 1
+date: 2026-08-16
+week: 4
+day: 0
