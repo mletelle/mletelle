@@ -46,3 +46,6 @@ day: 6
 date: 2026-08-31
 week: 6
 day: 1
+date: 2026-09-01
+week: 6
+day: 2
