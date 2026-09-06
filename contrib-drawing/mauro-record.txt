@@ -61,3 +61,6 @@ day: 5
 date: 2026-09-05
 week: 6
 day: 6
+date: 2026-09-06
+week: 7
+day: 0
