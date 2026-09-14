@@ -1,12 +1,22 @@
 name: MAURO contribution generator
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/mauro-contributions.yml'
+      - '.github/scripts/mauro-contrib.sh'
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '17 13 * * *'
   workflow_dispatch: {}
 
 permissions:
   contents: write
+
+concurrency:
+  group: mauro-contributions
+  cancel-in-progress: false
 
 jobs:
   generate:
@@ -21,12 +31,12 @@ jobs:
 
       - name: Configure Git author
         run: |
-          git config user.name "mletlle GitHub Action"
-          git config user.email "mletlle@users.noreply.github.com"
+          git config user.name "mletelle"
+          git config user.email "179537725+mletelle@users.noreply.github.com"
 
       - name: Generate MAURO contribution commit
         run: bash .github/scripts/mauro-contrib.sh
 
       - name: Push contribution commit
         run: |
-          git push origin HEAD
+          git push origin HEAD:main
