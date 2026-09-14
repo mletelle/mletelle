@@ -20,14 +20,17 @@ else
   start_date=$(cat "$START_FILE")
 fi
 
+# 7 rows (Sun-Sat). Each character is 5 weeks wide, letters are separated
+# by one blank week, and the final zero adds a blank week before MAURO
+# starts again. The complete 30-week pattern repeats indefinitely.
 rows=(
-  "10001001110010001011100001110"
-  "11011010001010001010010010001"
-  "10101010001010001010010010001"
-  "10001011111010001011100010001"
-  "10001010001010001010100010001"
-  "10001010001010001010010010001"
-  "10001010001001110010001001110"
+  "100010011100100010111000011100"
+  "110110100010100010100100100010"
+  "101010100010100010100100100010"
+  "100010111110100010111000100010"
+  "100010100010100010101000100010"
+  "100010100010100010100100100010"
+  "100010100010011100100010011100"
 )
 
 if [ ${#rows[@]} -ne 7 ]; then
@@ -51,11 +54,12 @@ pixel_for_date() {
   target_ts=$(date -u -d "$target_date" +%s)
   offset_days=$(( (target_ts - start_ts) / 86400 ))
 
-  if [ "$offset_days" -lt 0 ] || [ "$offset_days" -ge $(( week_count * 7 )) ]; then
+  if [ "$offset_days" -lt 0 ]; then
     return 1
   fi
 
-  week=$(( offset_days / 7 ))
+  # Wrap the week index so the 30-week MAURO pattern never ends.
+  week=$(( (offset_days / 7) % week_count ))
   dow=$(( offset_days % 7 ))
   row="${rows[$dow]}"
 
