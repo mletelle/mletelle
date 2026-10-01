@@ -88,3 +88,6 @@ day: 2
 date: 2026-09-30
 week: 10
 day: 3
+date: 2026-10-01
+week: 10
+day: 4
